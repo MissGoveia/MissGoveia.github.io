@@ -1,0 +1,220 @@
+html {
+  min-height: 100%;
+  overflow-y: scroll; overflow-x:hidden;
+}
+body {
+   position: absolute;
+   background-color: #f2edfb;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+font-family: 'Romanesco', cursive !important;
+font-size: 80px !important;
+color: #ff9c07;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+font-size: 25px !important;
+color: #ff9c07;
+}
+
+.navbar {
+  background: white;
+}
+.links{
+  font-size: 100px !important;
+  font-family: Romanesco,cursive !important;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.div1{
+  text-align: center;
+}
+.div2{
+  text-align: center;
+}
+.britishmuseum{
+  font-size: 20px;
+}
+
+.nationalgallery{
+  font-size: 20px
+}
+.tatemuseum{
+  font-size: 20px
+}
+.sothebys{
+  font-size: 20px
+}
+.sciencemuseum{
+  font-size: 20px
+}
+.nationalhistory{
+  font-size: 20px
+}
+
+.row{
+  padding-bottom: 200px;
+  margin-left:15px;
+  margin-right: 100px;
+}
+.column{
+  margin: auto;
+  padding: 2.5px;
+}
+.column2{
+  margin: auto;
+  padding: 2.5px;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.textfooter {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.div2 {
+  padding-bottom: 200px;
+}
+.linkbody{
+margin:0px;
+padding:0px;
+width:100%;
+background-color: #f2edfb;
+}
+
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  transform: scaleX(1.09);
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f2edfb;
+  transform: ScaleX(1.02)
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: orange;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.video {
+  margin-left: 420px;
+}
+
+.textice {
+  color: black;
+}
+.team{
+  background-color: #ebcdf1;
+  padding-bottom: 10px;
+
+}
+
+
+.textj{
+  margin-left: 120px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.texte{
+  margin-left: 120;
+  text-align: center;
+  font-size: 15px;
+}
+
+.texttop{
+  padding: 100px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer {
+ position: relative;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ color: white;
+ text-align: center;
+}
+
+.textfooter {
+  color: black;
+
+}
+
+.newsletter {
+background-color: #f2edfb;
+}
+
+.newstext{
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+.form{
+  margin-bottom: 20px;
+}
+.Scioloh {
+   float: left;
+   width: 50%;
+   height: 100%;
+   box-sizing: border-box;
+   background-color: #ebcdf1;
+   padding: 50px;
+}
+
+
+.imgj {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ebcdf1;
+}
+
+
+.aboutus{
+  background-color: #f2edfb;
+}
