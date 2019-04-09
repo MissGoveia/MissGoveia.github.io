@@ -58,6 +58,7 @@ color: #ff9c07;
 }
 
 .row{
+  margin:0 auto;
   padding-bottom: 200px;
 }
 .column{
@@ -150,7 +151,8 @@ background-color: #f2edfb;
 
 
 .textj{
-  margin-left: 120px;
+  width:60%;
+  margin: 0 auto;
   text-align: center;
   font-size: 15px;
 }
@@ -191,11 +193,14 @@ background-color: #f2edfb;
   font-size: 25px;
 }
 .form{
+  border:1px solid black;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
   margin-bottom: 20px;
 }
+.form-container {text-align: center;}
 .Scioloh {
-   float: left;
-   width: 50%;
    height: 100%;
    box-sizing: border-box;
    background-color: #ebcdf1;
